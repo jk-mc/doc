@@ -1,0 +1,10 @@
+关于如何在测试环境下单测试的说明
+
+先打开 https://yao.test.pajk.cn/index.html#/yao-login  进行登录  手机号码 自己填写一个, 密码 666666
+然后打开 https://yao.test.pajk.cn/index.html#/yao-item/${spuId}?page_source=yao-orderinfo 将${spuId}改成 自己商户的 spuId 然后下单
+
+例如:https://yao.test.pajk.cn/index.html#/yao-item/20373792?page_source=yao-orderinfo 
+
+
+商户spuId 可以在 测试环境商户后台http://www.test.pajk.cn/sell/ 查询
+由于 商户后台和 用户下单地址采用同一个域名, 请商户测试的时候, 不要在同一个浏览器下使用2个地址
